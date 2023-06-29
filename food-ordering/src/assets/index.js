@@ -1,6 +1,8 @@
 import chef from './chef.png'
 import close from './close.svg'
 import landingimg from './landingimg.png'
+import star from './star.png'
+import arrow from './arrow.png'
 import logo from './logo.png'
 import menu from './menu.svg'
 import mobile from './mobile.png'
@@ -20,6 +22,8 @@ export {
     chef,
     close,
     landingimg,
+    star,
+    arrow,
     logo,
     menu,
     mobile,
