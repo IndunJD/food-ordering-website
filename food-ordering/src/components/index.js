@@ -2,7 +2,7 @@ import Button from "./Button"
 import CTA from "./CTA"
 import Feedback from "./Feedback"
 import Footer from "./Footer"
-import GetStarted from "./GetStarted"
+import OrderNow from "./OrderNow"
 import Hero from "./Hero"
 import Navbar from "./Navbar"
 import Stats from "./Stats"
@@ -18,7 +18,7 @@ export {
     CTA,
     Feedback,
     Footer,
-    GetStarted,
+    OrderNow,
     Hero,
     Navbar,
     Stats,

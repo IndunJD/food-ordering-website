@@ -1,4 +1,15 @@
-import { Navbar, Hero, Stats, Serve, Popular, Chefs, Testimonials, Mobile, Newsletter, Footer } from './components'
+import {
+  Navbar,
+  Hero,
+  Stats,
+  Serve,
+  Popular,
+  Chefs,
+  Testimonials,
+  Mobile,
+  Newsletter,
+  Footer,
+} from "./components";
 
 const App = () => (
   <div className="bg-blackish w-full overflow-hidden">
