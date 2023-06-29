@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, fresh, quality, delivery, shipping  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, fresh, quality, delivery, shipping, servebgimage, food01, food02, food03  } from "../assets";
 
 export const navLinks = [
   {
@@ -23,6 +23,7 @@ export const features = [
   {
     id: "feature-1",
     img: fresh,
+    bg: servebgimage,
     title: "Fresh Food",
     content:
       "Delight in the Freshest Flavors, Straight from Nature's Bounty",
@@ -30,6 +31,7 @@ export const features = [
   {
     id: "feature-2",
     img: quality,
+    bg: servebgimage,
     title: "Best Quality",
     content:
       "Elevating Taste to New Heights, Crafted with Uncompromising Standards",
@@ -37,6 +39,7 @@ export const features = [
   {
     id: "feature-3",
     img: delivery,
+    bg: servebgimage,
     title: "Fast Delivery",
     content:
       "Savory Delights, Swiftly Delivered to Satisfy Your Cravings",
@@ -44,6 +47,7 @@ export const features = [
   {
     id: "feature-4",
     img: shipping,
+    bg: servebgimage,
     title: "Free Shipping",
     content:
       "Indulgence without Extra Cost, Bringing Culinary Excellence to Your Doorstep",
@@ -94,6 +98,27 @@ export const stats = [
     id: "stats-4",
     title: "DAILY VISITORS",
     value: "400+",
+  },
+];
+
+export const dishes = [
+  {
+    id: "dishes-1",
+    img: food01,
+    title: "Squid Inc Pasta",
+    price: "$ Price",
+  },
+  {
+    id: "dishes-2",
+    img: food02,
+    title: "Beetroot Burger",
+    price: "$ Price",
+  },
+  {
+    id: "dishes-3",
+    img: food03,
+    title: "Chicken Ramen",
+    price: "$ Price",
   },
 ];
 
