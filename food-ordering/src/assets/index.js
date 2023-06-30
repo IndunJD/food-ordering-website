@@ -25,6 +25,18 @@ import facebook from "./facebook.png";
 import instagram from "./instagram.png";
 import twitter from "./twitter.png";
 import linkedin from "./linkedin.png";
+import loginimg from "./loginimg.png";
+import googleicon from "./googleicon.png";
+import menu01 from "./menu01.png";
+import menu02 from "./menu02.png";
+import menu03 from "./menu03.png";
+import menu04 from "./menu04.png";
+import menu05 from "./menu05.png";
+import menu06 from "./menu06.png";
+import menu07 from "./menu07.png";
+import menu08 from "./menu08.png";
+import menu09 from "./menu09.png";
+import menu10 from "./menu10.png";
 
 export {
   chef,
@@ -54,4 +66,16 @@ export {
   instagram,
   twitter,
   linkedin,
+  loginimg,
+  googleicon,
+  menu01,
+  menu02,
+  menu03,
+  menu04,
+  menu05,
+  menu06,
+  menu07,
+  menu08,
+  menu09,
+  menu10,
 };

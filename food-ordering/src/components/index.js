@@ -10,6 +10,7 @@ import Newsletter from "./Newsletter"
 import Popular from "./Popular"
 import Serve from "./Serve"
 import Mobile from "./Mobile"
+import FoodCard from "./FoodCard"
 
 export {
     ReviewCard,
@@ -23,5 +24,6 @@ export {
     Newsletter,
     Popular,
     Serve,
-    Mobile
+    Mobile,
+    FoodCard,
 }
