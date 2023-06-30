@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 // eslint-disable-next-line no-unused-vars
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 import { logo, close, menu } from "../assets";
 import { navLinks } from "../constants";
@@ -13,18 +14,36 @@ const Navbar = () => {
       <img src={logo} alt="food" className="h-[64px]" />
 
       <ul className="list-none sm:flex hidden justify-center items-center flex-1">
-        {navLinks.map((nav, index) => (
+        {/* {navLinks.map((nav, index) => (
           <li
             key={nav.id}
             className={`font-raleway font-normal cursor-pointer text-[16] text-whiteish hover:text-secondary m-5`}
           >
             <a href={`${nav.id}`}>{nav.title}</a>
           </li>
-        ))}
+        ))} */}
+        <Link to="/">
+          <li className="font-raleway font-normal cursor-pointer text-[16] text-whiteish hover:text-secondary m-5">
+            Home
+          </li>
+        </Link>
+        <li className="font-raleway font-normal cursor-pointer text-[16] text-whiteish hover:text-secondary m-5">
+          About Us
+        </li>
+        <Link to="/menu">
+          <li className="font-raleway font-normal cursor-pointer text-[16] text-whiteish hover:text-secondary m-5">
+            Menu
+          </li>
+        </Link>
+        <li className="font-raleway font-normal cursor-pointer text-[16] text-whiteish hover:text-secondary m-5">
+          Contact Us
+        </li>
       </ul>
-      <button className="font-raleway uppercase sm:flex hidden bg-gradient-to-r from-primary to-secondary text-whiteish text-sm font-semibold py-2 px-6 rounded-lg cursor-pointer">
-        Sign In
-      </button>
+      <Link to="/login">
+        <button className="font-raleway uppercase sm:flex hidden bg-gradient-to-r from-primary to-secondary text-whiteish text-sm font-semibold py-2 px-6 rounded-lg cursor-pointer">
+          Sign In
+        </button>
+      </Link>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
@@ -49,9 +68,11 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button className="font-raleway uppercase flex flex-col bg-gradient-to-r from-primary to-secondary text-whiteish text-sm font-semibold py-2 px-6 rounded-lg cursor-pointer">
-            Sign In
-          </button>
+          <Link to="/login">
+            <button className="font-raleway uppercase sm:flex hidden bg-gradient-to-r from-primary to-secondary text-whiteish text-sm font-semibold py-2 px-6 rounded-lg cursor-pointer">
+              Sign In
+            </button>
+          </Link>
         </div>
       </div>
     </nav>
