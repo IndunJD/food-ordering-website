@@ -1,5 +1,5 @@
-import { testimonials } from "../constants"
-import ReviewCard from './ReviewCard'
+import { testimonials } from "../constants";
+import ReviewCard from "./ReviewCard";
 
 const Testimonials = () => {
   return (

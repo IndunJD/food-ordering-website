@@ -32,8 +32,12 @@ const Serve = () => {
 
               {/* Text */}
               <div className="max-w-[220px]">
-                <h3 className="text-[32px] mb-4 font-raleway font-medium text-secondary">{feature.title}</h3>
-                <p className="font-raleway font-light text-whiteish gap-x-2">{feature.content}</p>
+                <h3 className="text-[32px] mb-4 font-raleway font-medium text-secondary">
+                  {feature.title}
+                </h3>
+                <p className="font-raleway font-light text-whiteish gap-x-2">
+                  {feature.content}
+                </p>
               </div>
             </div>
           </div>
