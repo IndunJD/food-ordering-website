@@ -1,4 +1,3 @@
-import Button from "./Button"
 import ReviewCard from "./ReviewCard"
 import Footer from "./Footer"
 import OrderNow from "./OrderNow"
@@ -13,7 +12,6 @@ import Serve from "./Serve"
 import Mobile from "./Mobile"
 
 export {
-    Button,
     ReviewCard,
     Footer,
     OrderNow,

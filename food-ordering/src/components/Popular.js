@@ -35,7 +35,9 @@ const Popular = () => {
         </div>
       </div>
       <div className="flex justify-center items-center">
-        <button className="font-raleway uppercase sm:flex bg-gradient-to-r from-primary to-secondary text-whiteish text-sm font-semibold py-2 px-6 rounded-lg cursor-pointer">View Menu</button>
+        <button className="font-raleway uppercase sm:flex bg-gradient-to-r from-primary to-secondary text-whiteish text-sm font-semibold py-2 px-6 rounded-lg cursor-pointer">
+          View Menu
+        </button>
       </div>
     </section>
   );
