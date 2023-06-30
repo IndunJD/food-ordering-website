@@ -12,8 +12,8 @@ const Testimonials = () => {
           Testimonials
         </h2>
       </div>
-      <div class="flex items-center justify-center">
-        <div class="grid grid-cols-1 gap-[10px] md:grid-cols-3">
+      {/* <div class="flex items-center justify-center">
+        <div class="grid grid-cols-1 gap-[50px] md:grid-cols-3">
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.id}
@@ -22,10 +22,10 @@ const Testimonials = () => {
               <div class="relative mx-auto">
                 <div class="absolute  w-full bottom-5 text-white text-justify p-4">
                   <h3 className="font-raleway font-medium text-whiteish text-xl px-2 py-1">
-                    {testimonial.title}
+                    {testimonial.content}
                   </h3>
-                  <p className="text-[32px] mb-4 font-raleway font-bold text-whiteish px-2 py-1">
-                    {testimonial.price}
+                  <p className="text-[24px] mb-4 font-raleway font-bold text-whiteish px-2 py-1">
+                    {testimonial.name}
                   </p>
                 </div>
                 <img src={testimonial.img} alt="" className="w-[70px] h-[70px]" />
@@ -33,7 +33,7 @@ const Testimonials = () => {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

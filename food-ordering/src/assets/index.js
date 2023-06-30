@@ -8,6 +8,8 @@ import menu from "./menu.svg";
 import servebgimage from "./servebgimage.png";
 import cheficon from "./cheficon.png";
 import mobile from "./mobile.png";
+import apple from "./apple.svg";
+import google from "./google.svg";
 import food01 from "./food01.png";
 import food02 from "./food02.png";
 import food03 from "./food03.png";
@@ -34,6 +36,8 @@ export {
   menu,
   servebgimage,
   mobile,
+  apple,
+  google,
   food01,
   food02,
   food03,

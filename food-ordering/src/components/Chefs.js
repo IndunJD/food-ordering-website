@@ -30,7 +30,7 @@ const Chefs = () => {
                 />
               </div>
               <div className="flex-1 flex justify-center flex-col ml-3">
-                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px]">
+                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px] pr-4">
                   Our team of expert chefs: Masters of culinary craft asdss asdf
                   sdfasdf
                 </h4>
@@ -46,7 +46,7 @@ const Chefs = () => {
                 />
               </div>
               <div className="flex-1 flex justify-center flex-col ml-3">
-                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px]">
+                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px] pr-4">
                   Unique skills and deep passion for cooking craft asdss asdf
                   sdfasdf
                 </h4>
@@ -62,7 +62,7 @@ const Chefs = () => {
                 />
               </div>
               <div className="flex-1 flex justify-center flex-col ml-3">
-                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px]">
+                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px] pr-4">
                   Remarkable flavor combinations and stunning presentations
                 </h4>
               </div>
@@ -77,7 +77,7 @@ const Chefs = () => {
                 />
               </div>
               <div className="flex-1 flex justify-center flex-col ml-3">
-                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px]">
+                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px] pr-4">
                   Infusing creativity and expertise into every dish craft asdss
                   asdf sdfasdf
                 </h4>
