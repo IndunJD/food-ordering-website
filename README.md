@@ -1,4 +1,4 @@
-# food-ordering-website
+# Food Ordering Website
 
 Clone the repository to your local machine
 
