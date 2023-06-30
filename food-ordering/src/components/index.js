@@ -1,5 +1,4 @@
 import Button from "./Button"
-import CTA from "./CTA"
 import ReviewCard from "./ReviewCard"
 import Footer from "./Footer"
 import OrderNow from "./OrderNow"
@@ -15,7 +14,6 @@ import Mobile from "./Mobile"
 
 export {
     Button,
-    CTA,
     ReviewCard,
     Footer,
     OrderNow,
