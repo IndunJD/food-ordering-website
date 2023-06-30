@@ -1,4 +1,5 @@
-import { testimonials } from "../constants";
+import { testimonials } from "../constants"
+import ReviewCard from './ReviewCard'
 
 const Testimonials = () => {
   return (
@@ -12,28 +13,15 @@ const Testimonials = () => {
           Testimonials
         </h2>
       </div>
-      {/* <div class="flex items-center justify-center">
-        <div class="grid grid-cols-1 gap-[50px] md:grid-cols-3">
-          {testimonials.map((testimonial) => (
-            <div
-              key={testimonial.id}
-              className="mx-auto flex justify-start items-center flex-col"
-            >
-              <div class="relative mx-auto">
-                <div class="absolute  w-full bottom-5 text-white text-justify p-4">
-                  <h3 className="font-raleway font-medium text-whiteish text-xl px-2 py-1">
-                    {testimonial.content}
-                  </h3>
-                  <p className="text-[24px] mb-4 font-raleway font-bold text-whiteish px-2 py-1">
-                    {testimonial.name}
-                  </p>
-                </div>
-                <img src={testimonial.img} alt="" className="w-[70px] h-[70px]" />
-              </div>
-            </div>
+      <div className="flex md:flex-row flex-col relative sm:py-16 py-6">
+        <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] orange__gradient" />
+
+        <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]">
+          {testimonials.map((card) => (
+            <ReviewCard key={card.id} {...card} />
           ))}
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };
