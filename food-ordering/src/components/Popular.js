@@ -42,29 +42,3 @@ const Popular = () => {
 };
 
 export default Popular;
-
-// {/* <div className="grid grid-cols-3 gap-0 md:grid-cols-3">
-//         {dishes.map((dish) => (
-//           <div
-//             key={dish.id}
-//             className="mx-auto flex justify-start items-center flex-col"
-//           >
-//             <div className="">
-//               {/* Background Image */}
-//               <img src={dish.img} alt="" className="w-[436px] h-[588px] -z-10 rounded-tl-xl rounded-br-xl overflow-hidden" />
-
-//               {/* Text */}
-//               <div className="absolute top-0 left-0 p-4 w-full">
-//                 <div className="max-w-[220px] bg-whiteish bg-opacity-75 rounded-tl-xl rounded-br-xl">
-//                   <h3 className="font-raleway font-light text-blackish text-xl px-2 py-1">
-//                     {dish.title}
-//                   </h3>
-//                   <p className="text-[32px] mb-4 font-raleway font-bold text-blackish px-2 py-1">
-//                     {dish.price}
-//                   </p>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         ))}
-//       </div> */}

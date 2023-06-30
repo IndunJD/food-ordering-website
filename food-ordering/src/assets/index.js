@@ -6,6 +6,7 @@ import arrow from "./arrow.png";
 import logo from "./logo.png";
 import menu from "./menu.svg";
 import servebgimage from "./servebgimage.png";
+import cheficon from "./cheficon.png";
 import mobile from "./mobile.png";
 import food01 from "./food01.png";
 import food02 from "./food02.png";
@@ -26,6 +27,7 @@ export {
   chef,
   close,
   landingimg,
+  cheficon,
   star,
   arrow,
   logo,
