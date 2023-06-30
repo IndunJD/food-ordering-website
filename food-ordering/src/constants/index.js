@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, fresh, quality, delivery, shipping, servebgimage, food01, food02, food03  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, fresh, quality, delivery, shipping, servebgimage, food01, food02, food03, cheficon  } from "../assets";
 
 export const navLinks = [
   {
@@ -54,7 +54,7 @@ export const features = [
   },
 ];
 
-export const testimonial = [
+export const testimonials = [
   {
     id: "testimonial-1",
     content:
@@ -119,6 +119,29 @@ export const dishes = [
     img: food03,
     title: "Chicken Ramen",
     price: "$ Price",
+  },
+];
+
+export const chefs = [
+  {
+    id: "chef-1",
+    img: cheficon,
+    content: "Our team of expert chefs: Masters of culinary craft",
+  },
+  {
+    id: "chef-2",
+    img: cheficon,
+    content: "Unique skills and deep passion for cooking.",
+  },
+  {
+    id: "chef-3",
+    img: cheficon,
+    content: "Remarkable flavor combinations and stunning presentations",
+  },
+  {
+    id: "chef-4",
+    img: cheficon,
+    title: "Infusing creativity and expertise into every dish",
   },
 ];
 

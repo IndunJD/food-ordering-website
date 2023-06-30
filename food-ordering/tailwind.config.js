@@ -13,7 +13,7 @@ module.exports = {
         blackish: "#181818",
         darkish: "#1e1e1e",
         dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        dimOrange: "rgba(248, 164, 78, 0.1)",
       },
       fontFamily: {
         raleway: ["Raleway", "sans-serif"],
