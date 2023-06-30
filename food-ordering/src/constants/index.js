@@ -1,4 +1,21 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, fresh, quality, delivery, shipping, servebgimage, food01, food02, food03, cheficon  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  fresh,
+  quality,
+  delivery,
+  shipping,
+  servebgimage,
+  food01,
+  food02,
+  food03,
+  cheficon,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -25,8 +42,7 @@ export const features = [
     img: fresh,
     bg: servebgimage,
     title: "Fresh Food",
-    content:
-      "Delight in the Freshest Flavors, Straight from Nature's Bounty",
+    content: "Delight in the Freshest Flavors, Straight from Nature's Bounty",
   },
   {
     id: "feature-2",
@@ -41,8 +57,7 @@ export const features = [
     img: delivery,
     bg: servebgimage,
     title: "Fast Delivery",
-    content:
-      "Savory Delights, Swiftly Delivered to Satisfy Your Cravings",
+    content: "Savory Delights, Swiftly Delivered to Satisfy Your Cravings",
   },
   {
     id: "feature-4",
@@ -58,21 +73,21 @@ export const testimonials = [
   {
     id: "testimonial-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "The attention to detail, the impeccable service, and, above all, the extraordinary flavors that transport me to different corners of the world—this restaurant truly sets the standard for excellence.",
     name: "Sara Lee Cooper",
     img: people01,
   },
   {
     id: "testimonial-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "The menu at Gourmet is a delightful journey through various cultures. I am always amazed at how they manage to maintain authenticity while incorporating unique twists. Every bite is an adventure, and I can't recommend this place enough.",
     name: "David Murphy",
     img: people02,
   },
   {
     id: "testimonial-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Absolutely phenomenal! I can confidently say that this restaurant is a hidden gem, and I can't wait to return for another extraordinary dining experience!",
     name: "Emily Blunt",
     img: people03,
   },
@@ -171,84 +186,23 @@ export const footerLinks = [
       },
     ],
   },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
-  },
 ];
 
 export const socialMedia = [
   {
     id: "social-media-1",
     icon: facebook,
-    link: "https://www.instagram.com/",
   },
   {
     id: "social-media-2",
     icon: instagram,
-    link: "https://www.facebook.com/",
   },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
   },
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
   },
 ];
-
-// export const clients = [
-//   {
-//     id: "client-1",
-//     logo: airbnb,
-//   },
-//   {
-//     id: "client-2",
-//     logo: binance,
-//   },
-//   {
-//     id: "client-3",
-//     logo: coinbase,
-//   },
-//   {
-//     id: "client-4",
-//     logo: dropbox,
-//   },
-// ];
