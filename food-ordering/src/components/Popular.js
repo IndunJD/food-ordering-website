@@ -1,38 +1,70 @@
 import { dishes } from "../constants";
 
 const Popular = () => {
-
   return (
-    <div className="flex justify-center items-center">
-      <div className="relative w-80">
-        <button
-          className="absolute top-1/2 transform -translate-y-1/2 left-2"
-        >
-          {/* Replace with your left arrow icon */}
-          &lt;
-        </button>
-        <div
-          className="bg-cover bg-center rounded-lg overflow-hidden max-h-[200px]"
-        >
-          <div className="p-4">
-            <h3 className="text-white text-lg font-bold mb-2">
-              Food Name
-            </h3>
-            <p className="text-white">Food Price</p>
-          </div>
-        </div>
-        <button
-          className="absolute top-1/2 transform -translate-y-1/2 right-2"
-        >
-          {/* Replace with your right arrow icon */}
-          &gt;
-        </button>
+    <section className="my-[70px] md:my-[150px]">
+      <div className="container mx-auto">
+        {/* text */}
+        <p className="font-licorice flex justify-end items-center text-whiteish mb-[-35px] text-[30px] mx-auto">
+          Our most
+        </p>
+        <h2 className="font-raleway flex justify-end items-center text-secondary font-bold text-[52px] mb-6 md:mb-12">
+          Popular Dishes
+        </h2>
       </div>
-      <button className="mt-4 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">
-        Click Me
-      </button>
-    </div>
-  )
-}
+      <div class="flex items-center justify-center">
+        <div class="grid grid-cols-1 gap-[10px] md:grid-cols-3">
+          {dishes.map((dish) => (
+            <div
+              key={dish.id}
+              className="mx-auto flex justify-start items-center flex-col"
+            >
+              <div class="relative mx-auto">
+                <div class="absolute  w-full bottom-5 text-white text-justify p-4">
+                  <h3 className="font-raleway font-medium text-whiteish text-xl px-2 py-1">
+                    {dish.title}
+                  </h3>
+                  <p className="text-[32px] mb-4 font-raleway font-bold text-whiteish px-2 py-1">
+                    {dish.price}
+                  </p>
+                </div>
+                <img src={dish.img} alt="" className="w-[436px] h-[588px]" />
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="flex justify-center items-center">
+        <button className="font-raleway uppercase sm:flex bg-gradient-to-r from-primary to-secondary text-whiteish text-sm font-semibold py-2 px-6 rounded-lg cursor-pointer">View Menu</button>
+      </div>
+    </section>
+  );
+};
 
-export default Popular
+export default Popular;
+
+// {/* <div className="grid grid-cols-3 gap-0 md:grid-cols-3">
+//         {dishes.map((dish) => (
+//           <div
+//             key={dish.id}
+//             className="mx-auto flex justify-start items-center flex-col"
+//           >
+//             <div className="">
+//               {/* Background Image */}
+//               <img src={dish.img} alt="" className="w-[436px] h-[588px] -z-10 rounded-tl-xl rounded-br-xl overflow-hidden" />
+
+//               {/* Text */}
+//               <div className="absolute top-0 left-0 p-4 w-full">
+//                 <div className="max-w-[220px] bg-whiteish bg-opacity-75 rounded-tl-xl rounded-br-xl">
+//                   <h3 className="font-raleway font-light text-blackish text-xl px-2 py-1">
+//                     {dish.title}
+//                   </h3>
+//                   <p className="text-[32px] mb-4 font-raleway font-bold text-blackish px-2 py-1">
+//                     {dish.price}
+//                   </p>
+//                 </div>
+//               </div>
+//             </div>
+//           </div>
+//         ))}
+//       </div> */}
