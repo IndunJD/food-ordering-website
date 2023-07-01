@@ -1,5 +1,5 @@
-import { loginimg, logo, googleicon } from "../assets";
-import { Link } from "react-router-dom";
+import { loginimg, logo, googleicon } from "../assets"
+import { Link } from "react-router-dom"
 
 const Login = () => {
   return (
@@ -99,7 +99,7 @@ const Login = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
 export default Login;
