@@ -6,13 +6,19 @@ Clone the repository to your local machine
 git clone https://github.com/IndunJD/food-ordering-website.git
 ```
 
-Open the food-ordering folder and type `npm install` to install the necessary dependencies
+Go to the food-ordering folder
+
+```
+cd food-ordering
+```
+
+After going inside the food-ordering folder install the necessary dependencies for the project
 
 ```
 npm install
 ```
 
-To run the project in your machine, type 
+To run the project on your machine, type 
 ```
 npm run start
 ```
