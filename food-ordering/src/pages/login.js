@@ -89,6 +89,14 @@ const Login = () => {
             </span>
           </p>
         </div>
+
+        <div className="w-full flex items-center justify-end">
+          <Link to="/">
+            <p className="text-sm mb-2 font-raleway font-semibold text-whiteish cursor-pointer hover:text-secondary">
+              Go Back
+            </p>
+          </Link>
+        </div>
       </div>
     </div>
   );

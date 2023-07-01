@@ -1,4 +1,5 @@
 import { loginimg, logo } from "../assets"
+import { Link } from "react-router-dom"
 
 const Signup = () => {
   return (
@@ -72,6 +73,15 @@ const Signup = () => {
           <button className="w-full text-whiteish my-2 font-semibold bg-gradient-to-r from-primary to-secondary rounded-md p-4 text-center flex items-center justify-center font-raleway">
             Register
           </button>
+        </div>
+
+        
+        <div className="w-full flex items-center justify-end">
+          <Link to="/login">
+            <p className="text-sm mb-2 font-raleway font-semibold text-whiteish cursor-pointer hover:text-secondary">
+              Go Back
+            </p>
+          </Link>
         </div>
       </div>
     </div>

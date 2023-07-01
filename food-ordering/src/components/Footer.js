@@ -1,5 +1,6 @@
 import React from "react";
-import { logo, facebook, instagram, twitter, linkedin } from "../assets"
+import { Link } from "react-router-dom";
+import { logo, facebook, instagram, twitter, linkedin } from "../assets";
 
 const Footer = () => (
   <section className="flex justify-center items-center sm:py-16 py-6 flex-col">
@@ -20,15 +21,19 @@ const Footer = () => (
           </h4> */}
         </div>
         <ul className="">
-          <li className="font-raleway font-normal text-[16px] leading-[24px] text-whiteish hover:text-secondary cursor-pointer">
-            Home
-          </li>
+          <Link to="/">
+            <li className="font-raleway font-normal text-[16px] leading-[24px] text-whiteish hover:text-secondary cursor-pointer">
+              Home
+            </li>
+          </Link>
           <li className="font-raleway font-normal text-[16px] leading-[24px] text-whiteish hover:text-secondary cursor-pointer">
             About Us
           </li>
-          <li className="font-raleway font-normal text-[16px] leading-[24px] text-whiteish hover:text-secondary cursor-pointer">
-            Menu
-          </li>
+          <Link to="/menu">
+            <li className="font-raleway font-normal text-[16px] leading-[24px] text-whiteish hover:text-secondary cursor-pointer">
+              Menu
+            </li>
+          </Link>
           <li className="font-raleway font-normal text-[16px] leading-[24px] text-whiteish hover:text-secondary cursor-pointer">
             Contact Us
           </li>

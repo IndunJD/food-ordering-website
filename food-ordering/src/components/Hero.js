@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { star, landingimg } from "../assets";
 import OrderNow from "./OrderNow";
 
@@ -18,7 +19,9 @@ const Hero = () => (
           Authentic <br className="sm:block hidden" /> Cuisine from <br />
         </h1>
         <div className="ss:flex hidden md:mr-4 mr-0 mb-3">
-          <OrderNow />
+          <Link to="/menu">
+            <OrderNow />
+          </Link>
         </div>
       </div>
 
@@ -34,11 +37,17 @@ const Hero = () => (
     </div>
 
     <div className="flex-1 flex flex justify-center items-center md:my-0 my-10 relative">
-      <img src={landingimg} alt="pizza" className="w-[100%] h-[100%] relative z-[5]" />
+      <img
+        src={landingimg}
+        alt="pizza"
+        className="w-[100%] h-[100%] relative z-[5]"
+      />
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 orange__gradient" />
     </div>
     <div className="ss:hidden flex justify-center items-center">
-      <OrderNow />
+      <Link to="/menu">
+        <OrderNow />
+      </Link>
     </div>
   </section>
 );

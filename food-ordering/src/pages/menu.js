@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react"
-
-import { loginimg, logo, googleicon } from "../assets"
-import { Navbar, FoodCard } from "../components"
+import { Navbar, FoodCard, Footer } from "../components"
 import { foodMenu } from "../constants"
 
 const Login = () => {
@@ -99,7 +97,13 @@ const Login = () => {
       {
         showModal && <FoodCard setShowModal={setShowModal} activeID={activeID} />
       }
+
+<div className="px-6 sm:px-16 flex justify-center items-center">
+        <div className="xl:max-w-[1280px] w-full">
+          <Footer />
+        </div>
     </section>
+    </div>
   );
 };
 

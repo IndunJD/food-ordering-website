@@ -48,21 +48,3 @@ const Serve = () => {
 };
 
 export default Serve;
-
-// {/* Image Section */}
-// <div>
-// <img src={fresh} alt="fresh" />
-// </div>
-// {/* Text Section*/}
-// <div>
-// <h2>{title}</h2>
-// </div>
-
-{
-  /* <div className="">
-  <h3 className="font-licorice text-whiteish">What we serve</h3>
-  <h1 className="font-raleway text-secondary font-bold text-[40px]">
-    We Serve Passion
-  </h1>
-</div>; */
-}
