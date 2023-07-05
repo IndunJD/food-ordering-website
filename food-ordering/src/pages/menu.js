@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import { Navbar, FoodCard, Footer } from "../components"
 import { foodMenu } from "../constants"
 
-const Login = () => {
+const Menu = () => {
   const [nextItems, setNextItems] = useState(6)
   const [menu, setMenu] = useState(foodMenu)
   const [selectTab, setSelectTab] = useState("all")
@@ -123,4 +123,4 @@ const Login = () => {
   )
 }
 
-export default Login;
+export default Menu;
