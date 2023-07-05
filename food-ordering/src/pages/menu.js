@@ -1,42 +1,42 @@
-import React, { useState, useEffect } from "react";
-import { Navbar, FoodCard, Footer } from "../components";
-import { foodMenu } from "../constants";
+import React, { useState, useEffect } from "react"
+import { Navbar, FoodCard, Footer } from "../components"
+import { foodMenu } from "../constants"
 
 const Login = () => {
-  const [nextItems, setNetItems] = useState(6);
-  const [menu, setMenu] = useState(foodMenu);
-  const [selectTab, setSelectTab] = useState("all");
-  const [showModal, setShowModal] = useState(false);
-  const [activeID, setactiveID] = useState(null);
+  const [nextItems, setNextItems] = useState(6)
+  const [menu, setMenu] = useState(foodMenu)
+  const [selectTab, setSelectTab] = useState("all")
+  const [showModal, setShowModal] = useState(false)
+  const [activeID, setActiveID] = useState(null)
 
   const loadMoreHandler = () => {
-    setNetItems((prev) => prev + 3);
-  };
+    setNextItems((prev) => prev + 3)
+  }
 
   const showModalHandler = (id) => {
-    setShowModal(true);
-    setactiveID(id);
-  };
+    setShowModal(true)
+    setActiveID(id)
+  }
 
   useEffect(() => {
     if (selectTab === "all") {
-      setMenu(foodMenu);
+      setMenu(foodMenu)
     }
 
     if (selectTab === "foods") {
       const filteredFoods = foodMenu.filter(
         (item) => item.category === "foods"
-      );
-      setMenu(filteredFoods);
+      )
+      setMenu(filteredFoods)
     }
 
     if (selectTab === "beverages") {
       const filteredFoods = foodMenu.filter(
         (item) => item.category === "beverages"
-      );
-      setMenu(filteredFoods);
+      )
+      setMenu(filteredFoods)
     }
-  }, [selectTab]);
+  }, [selectTab])
 
   return (
     <section className="bg-blackish w-full overflow-hidden">
@@ -88,7 +88,7 @@ const Login = () => {
               <div className="w-full h-full bg-darkish bg-opacity-70 absolute top-0 left-0 z-[5] hidden group-hover:block ">
                 <div className="w-full h-full flex items-center justify-center">
                   <button
-                    onClick={() => showModalHandler(menu.id)}
+                    onClick={() => showModalHandler(food.id)}
                     className="font-raleway uppercase sm:flex hidden bg-gradient-to-r from-primary to-secondary text-whiteish text-sm font-semibold py-2 px-6 rounded-lg cursor-pointer"
                   >
                     View
@@ -120,7 +120,7 @@ const Login = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default Login;
