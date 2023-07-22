@@ -26,3 +26,7 @@ npm run start
 Figma Deisgn Link: https://www.figma.com/file/dAbSG9XjazB1ofbc7UyRBt/restaurant-website?type=design&node-id=0%3A1&mode=design&t=gBaMS8glmd0DiYH7-1
 
 Happy Coding!
+
+
+🚀 Checkout the live site from here:
+https://gourmet-seven.vercel.app/
