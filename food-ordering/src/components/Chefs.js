@@ -20,7 +20,7 @@ const Chefs = () => {
             With unmatched expertise and unwavering dedication, they create
             dishes that showcase their culinary artistry.
           </p>
-          <div className="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-10 relative flex-col">
+          <div className="flex-1 flex justify-center items-center md:ml-10 ml-0 md:mt-0 mt-5 relative flex-col">
             <div className="flex flex-row-6 justify-start rounded-3xl mb-6 feature-card">
               <div className="w-[64px] h-[64px] rounded-3xl flex justify-center items-center bg-dimOrange">
                 <img
@@ -30,9 +30,8 @@ const Chefs = () => {
                 />
               </div>
               <div className="flex-1 flex justify-center flex-col ml-3">
-                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px] pr-4">
-                  Our team of expert chefs: Masters of culinary craft asdss asdf
-                  sdfasdf
+                <h4 className="font-raleway text-whiteish text-[16px] leading-[23px] pr-4">
+                Years of Experience and Training: Your team of expert chefs has accumulated years of experience and undergone extensive training in various culinary techniques and cuisines
                 </h4>
               </div>
             </div>
@@ -46,9 +45,8 @@ const Chefs = () => {
                 />
               </div>
               <div className="flex-1 flex justify-center flex-col ml-3">
-                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px] pr-4">
-                  Unique skills and deep passion for cooking craft asdss asdf
-                  sdfasdf
+                <h4 className="font-raleway text-whiteish text-[16px] leading-[23px] pr-4">
+                Creativity and Innovation: They embrace innovation and are not afraid to experiment with new ingredients and cooking styles, leading to unique and extraordinary dishes that showcase their artistry
                 </h4>
               </div>
             </div>
@@ -62,8 +60,8 @@ const Chefs = () => {
                 />
               </div>
               <div className="flex-1 flex justify-center flex-col ml-3">
-                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px] pr-4">
-                  Remarkable flavor combinations and stunning presentations
+                <h4 className="font-raleway text-whiteish text-[16px] leading-[23px] pr-4">
+                Attention to Detail: The team's unwavering dedication to their craft is evident in their meticulous attention to detail
                 </h4>
               </div>
             </div>
@@ -77,9 +75,8 @@ const Chefs = () => {
                 />
               </div>
               <div className="flex-1 flex justify-center flex-col ml-3">
-                <h4 className="font-raleway text-whiteish text-[18px] leading-[23px] pr-4">
-                  Infusing creativity and expertise into every dish craft asdss
-                  asdf sdfasdf
+                <h4 className="font-raleway text-whiteish text-[16px] leading-[23px] pr-4">
+                Consistency and Excellence: Your team of expert chefs consistently delivers excellence in their culinary creations. Regardless of the occasion or the number of diners, they maintain high standards and strive for perfection in each dish they serve
                 </h4>
               </div>
             </div>

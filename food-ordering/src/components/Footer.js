@@ -6,7 +6,7 @@ const Footer = () => (
   <section className="flex justify-center items-center sm:py-16 py-6 flex-col">
     <div className="flex justify-center items-start md:flex-row flex-col mb-8 w-full">
       <div className="flex-1 flex flex-col justify-start mr-10">
-        <img src={logo} alt="gourmet" className="h-[64px] object-contain" />
+        {/* <img src={logo} alt="gourmet" className="h-[64px] object-contain" /> */}
         <p className="font-raleway font-normal text-whiteish text-[16px] max-w-[310px] mt-4">
           At GOURMET, we are passionate about food. With years of culinary
           expertise and a deep appreciation for global gastronomy, we strive to

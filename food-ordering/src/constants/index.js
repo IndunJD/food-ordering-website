@@ -131,19 +131,19 @@ export const dishes = [
     id: "dishes-1",
     img: food01,
     title: "Squid Inc Pasta",
-    price: "$ Price",
+    price: "$ 28",
   },
   {
     id: "dishes-2",
     img: food02,
     title: "Beetroot Burger",
-    price: "$ Price",
+    price: "$ 6.50",
   },
   {
     id: "dishes-3",
     img: food03,
     title: "Chicken Ramen",
-    price: "$ Price",
+    price: "$ 11.46",
   },
 ];
 
@@ -220,7 +220,7 @@ export const foodMenu = [
     title: "French Bread Pizza",
     description:
       "Craving homemade pizza, but don’t want to deal with finicky pizza dough? We get it, that stuff can be tricky. Skip it altogether, and grab the nearest loaf of French bread instead.",
-    prize: "$ Prize",
+    prize: "$ 14.98",
   },
   {
     id: "02",
@@ -229,7 +229,7 @@ export const foodMenu = [
     title: "Blueberry juice",
     description:
       "What’s more, eating whole blueberries is a healthier, lower sugar option that may provide similar benefits.",
-    prize: "$ Prize",
+    prize: "$ 3.91",
   },
   {
     id: "03",
@@ -238,7 +238,7 @@ export const foodMenu = [
     title: "Sugarcane Juice",
     description:
       "Sugarcane juice is one of the essential precursors to rum and is obtained by crushing peeled sugar cane in a mill. ",
-    prize: "$ Prize",
+    prize: "$ 9",
   },
   {
     id: "04",
@@ -247,7 +247,7 @@ export const foodMenu = [
     title: "Stuffed Pepper Casserole",
     description:
       "This recipe begins with the ingredients you love from classic stuffed peppers: ground beef, large chunks of peppers and onion, a deep bench of seasonings, and a tomato-heavy broth. A cup of rice dives into that pool of liquid gold, the whole thing slides in the oven, and within minutes, you have a warm and hearty meal ready to feed a crowd.",
-    prize: "$ Prize",
+    prize: "$ 8",
   },
   {
     id: "05",
@@ -256,7 +256,7 @@ export const foodMenu = [
     title: "One-Pan Lemon Parm Chicken Gnocchi",
     description:
       "There’s nothing more comforting than a creamy pasta dish, and this one-pan meal couldn’t be easier to make. It's the perfect segue from summer into fall, as it's warm and comforting, but still simple and fresh.",
-    prize: "$ Prize",
+    prize: "$ 5.79",
   },
 
   {
@@ -266,7 +266,7 @@ export const foodMenu = [
     title: "Orange Juice",
     description:
       "Orange juice is not only a delicious and healthy drink, but it is also packed with essential vitamins and minerals. It only takes a few minutes to make, so there’s really no excuse to not enjoy fresh orange juice!",
-    prize: "$ Prize",
+    prize: "$ 2.21",
   },
   {
     id: "07",
@@ -275,7 +275,7 @@ export const foodMenu = [
     title: "Taco Spaghetti",
     description:
       "One-pot taco spaghetti is a fast-as-can-be weeknight dinner that pairs all your favorite taco fixin’s with spaghetti rather than taco shells. It's especially perfect for those nights when you just cannot stand the thought of a sink full of dirty dishes.",
-    prize: "$ Prize",
+    prize: "$ 6.39",
   },
   {
     id: "08",
@@ -284,7 +284,7 @@ export const foodMenu = [
     title: "Creamy Steak Fettuccine",
     description:
       "When we crave steak, this dish is always at the top of our list. It comes together quickly and is so full of flavor, plus the steak makes it feel extra special. It might just make you forget chicken Alfredo ever existed.",
-    prize: "$ Prize",
+    prize: "$ 18",
   },
   {
     id: "09",
@@ -293,7 +293,7 @@ export const foodMenu = [
     title: "Pineapple Juice",
     description:
       "Not only is pineapple juice delicious and easy to make, but it's also one of the top 5 healthiest fruits you can easily find or obtain. Pineapple is an excellent choice for people looking to enjoy a delicious and nutritious beverage, as it is packed with vitamins and minerals like vitamin C, manganese, folate, and thiamin.",
-    prize: "$ Prize",
+    prize: "$ 2.8",
   },
   {
     id: "10",
@@ -302,6 +302,6 @@ export const foodMenu = [
     title: "Watermelon Juice",
     description:
       "If you still wonder which juice is good for health, the answer is watermelon juice (among others), without a shadow of a doubt! It contains essential minerals and vitamins that promote better heart health, maintain blood pressure, and provide hydration.",
-    prize: "$ Prize",
+    prize: "$ 2",
   },
 ]
