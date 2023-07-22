@@ -28,5 +28,7 @@ Figma Deisgn Link: https://www.figma.com/file/dAbSG9XjazB1ofbc7UyRBt/restaurant-
 Happy Coding!
 
 
-🚀 Checkout the live site from here:
+
+
+## **🚀 Checkout the live site from here:**
 https://gourmet-seven.vercel.app/
