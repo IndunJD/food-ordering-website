@@ -30,5 +30,5 @@ Happy Coding!
 
 
 
-## **🚀 Checkout the live site from here:**
+## **🚀 Check out the live site from here:**
 https://gourmet-seven.vercel.app/
